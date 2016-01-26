@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Fu-X8-tJD">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,173 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ernieBanks" translatesAutoresizingMaskIntoConstraints="NO" id="3Oy-cb-Hof" customClass="Card">
+                                <rect key="frame" x="20" y="72" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="77" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="letterman" translatesAutoresizingMaskIntoConstraints="NO" id="uzO-U4-xrW" customClass="Card">
+                                <rect key="frame" x="171" y="72" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="77" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="willFerrell" translatesAutoresizingMaskIntoConstraints="NO" id="lC7-NV-EVt" customClass="Card">
+                                <rect key="frame" x="326" y="72" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="77" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sammySosa" translatesAutoresizingMaskIntoConstraints="NO" id="ieF-R5-QYc" customClass="Card">
+                                <rect key="frame" x="480" y="72" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="312" y="77" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ronSanto" translatesAutoresizingMaskIntoConstraints="NO" id="uIh-o9-dQF" customClass="Card">
+                                <rect key="frame" x="20" y="208" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="213" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ernieBanks" translatesAutoresizingMaskIntoConstraints="NO" id="tab-ac-rtc" customClass="Card">
+                                <rect key="frame" x="171" y="208" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="213" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="griffey" translatesAutoresizingMaskIntoConstraints="NO" id="xu5-gJ-VCC" customClass="Card">
+                                <rect key="frame" x="326" y="208" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="213" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="letterman" translatesAutoresizingMaskIntoConstraints="NO" id="jMc-5e-a1m" customClass="Card">
+                                <rect key="frame" x="480" y="208" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="312" y="213" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ryneSandberg" translatesAutoresizingMaskIntoConstraints="NO" id="zPv-K0-ks6" customClass="Card">
+                                <rect key="frame" x="20" y="340" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="345" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="willFerrell" translatesAutoresizingMaskIntoConstraints="NO" id="AQo-K8-VjB" customClass="Card">
+                                <rect key="frame" x="171" y="340" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="345" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="10" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="griffey" translatesAutoresizingMaskIntoConstraints="NO" id="2rX-fa-g9X" customClass="Card">
+                                <rect key="frame" x="326" y="340" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="345" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="11" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sammySosa" translatesAutoresizingMaskIntoConstraints="NO" id="ogm-18-BFS" customClass="Card">
+                                <rect key="frame" x="480" y="340" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="312" y="345" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="12" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mantle" translatesAutoresizingMaskIntoConstraints="NO" id="dg3-OY-sEE" customClass="Card">
+                                <rect key="frame" x="20" y="480" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="485" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="13" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ryneSandberg" translatesAutoresizingMaskIntoConstraints="NO" id="yTO-VZ-Ubq" customClass="Card">
+                                <rect key="frame" x="171" y="480" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="485" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="14" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ronSanto" translatesAutoresizingMaskIntoConstraints="NO" id="Y8t-t9-rjj" customClass="Card">
+                                <rect key="frame" x="326" y="480" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="218" y="485" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView tag="15" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mantle" translatesAutoresizingMaskIntoConstraints="NO" id="SDe-Wt-qZz" customClass="Card">
+                                <rect key="frame" x="480" y="480" width="100" height="100"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="312" y="485" width="75" height="100"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wrb-xl-lJL"/>
+                    <connections>
+                        <outletCollection property="cardCollection" destination="3Oy-cb-Hof" id="3XN-Gp-OhY"/>
+                        <outletCollection property="cardCollection" destination="uzO-U4-xrW" id="AYy-Q5-XbP"/>
+                        <outletCollection property="cardCollection" destination="lC7-NV-EVt" id="Eux-Z7-Prd"/>
+                        <outletCollection property="cardCollection" destination="ieF-R5-QYc" id="rGr-hj-LDa"/>
+                        <outletCollection property="cardCollection" destination="uIh-o9-dQF" id="gac-FQ-4mS"/>
+                        <outletCollection property="cardCollection" destination="tab-ac-rtc" id="sdF-Kh-KO5"/>
+                        <outletCollection property="cardCollection" destination="xu5-gJ-VCC" id="q7c-cG-9UT"/>
+                        <outletCollection property="cardCollection" destination="jMc-5e-a1m" id="rUm-FM-2sY"/>
+                        <outletCollection property="cardCollection" destination="zPv-K0-ks6" id="wzz-gB-vfa"/>
+                        <outletCollection property="cardCollection" destination="AQo-K8-VjB" id="E3i-RP-UP5"/>
+                        <outletCollection property="cardCollection" destination="2rX-fa-g9X" id="Aly-fB-Vfq"/>
+                        <outletCollection property="cardCollection" destination="ogm-18-BFS" id="eZ2-jv-NSt"/>
+                        <outletCollection property="cardCollection" destination="dg3-OY-sEE" id="RZP-PD-TU0"/>
+                        <outletCollection property="cardCollection" destination="yTO-VZ-Ubq" id="EaO-6e-3qB"/>
+                        <outletCollection property="cardCollection" destination="Y8t-t9-rjj" id="hYc-e6-CWL"/>
+                        <outletCollection property="cardCollection" destination="SDe-Wt-qZz" id="YWd-l8-mfF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1161" y="339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Sh-Fl-XA5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Fu-X8-tJD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H8d-VN-4cz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MYa-yd-otU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qx1-7e-nap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456" y="339"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ernieBanks" width="403" height="545"/>
+        <image name="griffey" width="376" height="530"/>
+        <image name="letterman" width="318" height="446"/>
+        <image name="mantle" width="186" height="271"/>
+        <image name="ronSanto" width="379" height="520"/>
+        <image name="ryneSandberg" width="403" height="550"/>
+        <image name="sammySosa" width="285" height="399"/>
+        <image name="willFerrell" width="600" height="800"/>
+    </resources>
 </document>

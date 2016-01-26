@@ -15,6 +15,7 @@
 		0D28750C1C56BE60000665A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D28750A1C56BE60000665A4 /* LaunchScreen.storyboard */; };
 		0D2875171C56BE60000665A4 /* MemoryGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875161C56BE60000665A4 /* MemoryGameTests.m */; };
 		0D2875221C56BE60000665A4 /* MemoryGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2875211C56BE60000665A4 /* MemoryGameUITests.m */; };
+		0D2875401C56DBD8000665A4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28753F1C56DBD8000665A4 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0D28751D1C56BE60000665A4 /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2875211C56BE60000665A4 /* MemoryGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryGameUITests.m; sourceTree = "<group>"; };
 		0D2875231C56BE60000665A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D28753E1C56DBD8000665A4 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
+		0D28753F1C56DBD8000665A4 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				0D2875021C56BE60000665A4 /* ViewController.h */,
 				0D2875031C56BE60000665A4 /* ViewController.m */,
 				0D2875051C56BE60000665A4 /* Main.storyboard */,
+				0D28753E1C56DBD8000665A4 /* Card.h */,
+				0D28753F1C56DBD8000665A4 /* Card.m */,
 				0D2875081C56BE60000665A4 /* Assets.xcassets */,
 				0D28750A1C56BE60000665A4 /* LaunchScreen.storyboard */,
 				0D28750D1C56BE60000665A4 /* Info.plist */,
@@ -276,6 +281,7 @@
 				0D2875041C56BE60000665A4 /* ViewController.m in Sources */,
 				0D2875011C56BE60000665A4 /* AppDelegate.m in Sources */,
 				0D2874FE1C56BE60000665A4 /* main.m in Sources */,
+				0D2875401C56DBD8000665A4 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
